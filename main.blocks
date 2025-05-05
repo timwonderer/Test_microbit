@@ -1,1 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="wr^miZlZvl?]Z8IK#Igq" x="0" y="0"></block><block type="device_forever" id="Vt(bwiIIThny:2L*CS.X" x="223" y="53"><statement name="HANDLER"><block type="music_playable_play" id=",?)|5=@8F9|thSF-7Lf*"><field name="playbackMode">music.PlaybackMode.UntilDone</field><value name="toPlay"><shadow type="music_tone_playable" id="we7a5p$`CbGK9qj%3,u_"><value name="note"><shadow type="device_note" id="J6E;k9`C0Z1L3gYGfK^2"><field name="name">262</field></shadow></value><value name="duration"><shadow type="device_beat" id="}!k-rxeT8`2xmq#9Ou#}"><field name="fraction">BeatFraction.Whole</field></shadow></value></shadow></value></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="pxt-on-start" id="wr^miZlZvl?]Z8IK#Igq" x="0" y="0"></block><block type="device_forever" id="Vt(bwiIIThny:2L*CS.X" x="223" y="53"><statement name="HANDLER"><block type="device_show_leds" id="XU2l2oQ8Y}LLAt8M}5ER"><field name="LEDS">`
+        # . . . . 
+        . # . . . 
+        . . # . . 
+        . . . # . 
+        . . . . #
+        `</field><next><block type="device_show_leds" id="3E!A+qMqU:CEvneGb}}G"><field name="LEDS">`
+        . . . . # 
+        . . . # . 
+        . . # . . 
+        . # . . . 
+        # . . . .
+        `</field></block></next></block></statement></block></xml>
